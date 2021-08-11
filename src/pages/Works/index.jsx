@@ -1,8 +1,18 @@
 import { Link } from "react-router-dom";
-import casestudy from "./casestudy/index";
+import { useParams } from "react-router";
+import { useEffect, useState } from 'react';
+import projects from "./casestudy/index";
+
+const Project = () => {
+  const { projectSlug } = useParams();
+  const [currentProject, setCurrentProject] = useState(undefined)
+
+  useEffect(() => {
+    const foundProject = projects.find((project) => project.slug === projectSlug);
+    setCurrentBook(foundProject);
+  }, [projectSlug])
 
 const Works = () => {
-  return (
     <div className="works">
       <h1>Au fil des années, nous avons pu accompagner les meilleurs.</h1>
       <p>
@@ -10,15 +20,13 @@ const Works = () => {
         marques préférées.
       </p>
       <div>
-        {casestudy.map((case) => {
+        {projects.map((project) => {
           return(
-            <Link key={case.slug}>
+            <Link key={project.slug}to={`/works/${project.slug}-casestudy`}>{project.description}
             </Link>
-          )
-        }}
+          )})};
       </div>
     </div>
-  );
-};
+}};
 
 export default Works;

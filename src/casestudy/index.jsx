@@ -1,4 +1,4 @@
-const CaseStudy = [
+const projects = [
   {
     slug: "platon",
     title: "Le challenge",
@@ -17,4 +17,4 @@ const CaseStudy = [
   },
 ];
 
-export default CaseStudy;
+export default projects;
