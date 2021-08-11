@@ -1,21 +1,17 @@
 const About = () => {
   return (
     <div className="about">
+      <h1>
+        Websitic est une Agence de communication digitale à paris ayant pour
+        mission de vous accompagner sur vos projets digitaux.
+      </h1>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-        consectetur sit amet augue a convallis. Mauris non dolor at lacus
-        iaculis dignissim vitae at dui. Phasellus rutrum scelerisque eros, ac
-        semper urna lacinia imperdiet. Nulla tincidunt, odio at iaculis
-        suscipit, urna mi iaculis libero, quis viverra dolor quam aliquet dui.
-        Orci varius natoque penatibus et magnis dis parturient montes, nascetur
-        ridiculus mus. Aliquam mattis mi arcu, nec viverra tortor rutrum quis.
-        Duis vestibulum pretium velit, vel interdum odio tristique a. In
-        porttitor orci ac lorem eleifend, non congue tortor euismod. Fusce
-        tincidunt aliquet ipsum, at condimentum eros sagittis eget. Pellentesque
-        fermentum convallis magna nec iaculis. Donec accumsan massa orci, congue
-        tempus ex pharetra ut. Ut risus lectus, ornare vitae lobortis a, commodo
-        a enim. Cras nec venenatis mi. Nam sollicitudin nunc eu nunc faucibus,
-        eget lacinia ipsum vestibulum.
+        De l’étape d’avant projet web au lancement effectif du site, nous somme
+        là pour vous. Tout au long de la durée de vie de nos projets communs,
+        nous mettons tout en oeuvre pour vous proposer des stratégies digitales
+        efficaces et vous permettre d’atteindre vos objectifs. Laissez votre
+        projet entre des mains dignes de confiance, ayant accompagné "PLATON",
+        "TCar", "Solane" ou encore "Sedal" vers le sommet.
       </p>
     </div>
   );
