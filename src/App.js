@@ -16,7 +16,7 @@ const App = () => {
         <ToggleBtn />
         <main>
           <Switch>
-            <div>
+            <div className="container-fluid">
               <Route path="/" exact>
                 <HomePage />
               </Route>
