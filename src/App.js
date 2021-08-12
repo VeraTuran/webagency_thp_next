@@ -19,7 +19,6 @@ const App = () => {
           <Route path="/works" exact>
             <Works />
           </Route>
-          <Route path="/works/:slug-casestudy" component={Works}></Route>
         </Switch>
       </main>
     </Router>
