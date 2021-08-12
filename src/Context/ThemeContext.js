@@ -13,7 +13,7 @@ const ThemeContextProvider = (props) => {
     <ThemeContext.Provider value={{ theme, toggleTheme }}>
       {props.children}
     </ThemeContext.Provider>
-  );
+  )
 };
 
 export default ThemeContextProvider;

@@ -13,7 +13,7 @@ const App = () => {
   return (
     <div className={theme ? "globaltheme light" : "globaltheme dark"}>
       <Router>
-        <ThemeContextProvider>
+        
           <Navigation />
           <ToggleBtn />
           <main>
@@ -31,7 +31,7 @@ const App = () => {
               </div>
             </Switch>
           </main>
-        </ThemeContextProvider>
+
       </Router>
     </div>
   );
