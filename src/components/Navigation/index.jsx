@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 const Navigation = () => {
   return (
     <div className="navigation">
-      <nav className="navbar navbar-expand-lg navbar-light bg-light">
+      <nav className="navbar navbar-expand-lg">
         <div className="container-fluid">
           <div className="navbar-brand">Websitic</div>
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
